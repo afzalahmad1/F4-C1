@@ -1,0 +1,40 @@
+body{
+  background-color: black;
+  color: white;
+}
+.inputs{
+  display: flex;
+  justify-content:center ;
+  flex-flow: column wrap;
+  gap: 15px;
+}
+input{
+  width: 200px;
+  padding: 10px;
+}
+.buttons{
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.App{
+  margin: 80px 0px 0px 100px;
+}
+button{
+  width: 40px;
+  height: 40px;
+}
+.error{
+  color: red;
+  margin: 15px 0;
+}
+.success{
+  color: green;
+  margin-top: 15px;
+}
+.result{
+  margin-top: 15px
+}
+
+
+
